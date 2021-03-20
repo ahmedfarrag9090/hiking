@@ -199,6 +199,8 @@ header .shape-down {
     margin: auto 0;
     color: #aaa;
     text-align: center;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
     height: fit-content;
 }
 
@@ -497,7 +499,8 @@ header .shape-down {
 .card .card-img img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
 }
 
 .card .card-body {
@@ -621,7 +624,8 @@ header .shape-down {
 .offer-img>img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
 
 }
 
